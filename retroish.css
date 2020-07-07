@@ -1,13 +1,6 @@
 @charset "UTF-8";
-@font-face {
-  font-family: 'bungee_shaderegular';
-  src: url('bungeeshade-regular-webfont.woff2') format('woff2'),
-       url('bungeeshade-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
 
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@400;500;700&display=swap');
 :root {
   --aquamarine: #4dbda7;
   --sandy: #f9ba33;
@@ -16,8 +9,8 @@
   --pink: #f9b5c3;
   --salmon: #f4825f;
   --gunmetal: #2a3439;
-  --font-primary: "bungee_shaderegular", serif;
-  --font-secondary: "Open Sans", sans-serif;
+  --font-primary: "Bungee Shade", serif;
+  --font-secondary: "Montserrat", sans-serif;
   --font-weight-strong: 700;
   --font-size-h1: 6rem;
   --font-size-h2: 3rem;
@@ -165,8 +158,6 @@ li a{
 ul li:hover {
     background: var(--black);
     color: var(--light-gray);
-    /* border: 5px solid var(--light-gray); */
-    
 }
 
 a:hover {
@@ -176,9 +167,7 @@ a:hover {
 }
 
 ol {
-    /* list-style-type: none; */
     text-align: left;
-    /* display: flex; */
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: center;
@@ -311,13 +300,9 @@ footer h3 {
     
 }
 
-/* .page-footer li {
-    border: none;
-} */
 
 .page-footer .link-github {
     border: none;
-    /* width: 50px; */
 }
 
 footer h3 {
@@ -325,6 +310,10 @@ footer h3 {
     font-size: var(--font-size-h2);
     font-size: clamp(2rem, 2vw, var(--font-size-h2));
     text-align: center; 
+}
+
+footer p {
+    padding: 0 30px;
 }
 
 #profile-title {
@@ -379,12 +368,6 @@ footer h3 {
     }
 
     
-
-    
-
-
-
-
     .link-downloadcss,  .link-downloadhtml, .link-codepen {
         font-size: var(--font-size-h4);
         margin: 5px;
