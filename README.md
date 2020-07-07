@@ -1,2 +1,3 @@
 # Retroish
- Stylesheet for Style Stage
+ Stylesheet contribution for Style Stage
+ https://stylestage.moderncss.dev/
